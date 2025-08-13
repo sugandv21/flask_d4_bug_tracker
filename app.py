@@ -29,4 +29,5 @@ def bug_report():
     return render_template('layout/bug_report.html', form=form)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
+
